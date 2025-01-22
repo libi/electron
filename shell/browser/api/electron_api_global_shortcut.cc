@@ -182,8 +182,8 @@ void GlobalShortcut::Unregister(const ui::Accelerator& accelerator) {
 #endif
 
   if (ui::GlobalShortcutListener::GetInstance()) {
-    ui::GlobalShortcutListener::GetInstance()->UnregisterAccelerator(accelerator,
-                                                                 this);
+    ui::GlobalShortcutListener::GetInstance()->UnregisterAccelerator(
+        accelerator, this);
   }
 }
 
