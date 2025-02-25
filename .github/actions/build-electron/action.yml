@@ -31,6 +31,7 @@ inputs:
     required: false
 runs:
   using: "composite"
+  runs-on: self-hosted
   steps:
     - name: Set GN_EXTRA_ARGS for MacOS x64 Builds
       shell: bash
