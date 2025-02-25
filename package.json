@@ -126,10 +126,6 @@
     "*.md": [
       "npm run lint:docs"
     ],
-    "*.{gn,gni}": [
-      "npm run gn-check",
-      "npm run gn-format"
-    ],
     "*.py": [
       "node script/lint.js --py --fix --only --"
     ],
